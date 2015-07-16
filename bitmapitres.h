@@ -1,0 +1,23 @@
+/* Weditres generated include file. Do NOT edit */
+#define	ID_POP	3
+#define	ID_POPUP	4
+#define	ID_MONIT	5
+#define	IDD_MAINDIALOG	100
+#define	ID_ICON	102
+#define	ID_ABOUT	103
+#define	ID_SHT	104
+#define	ID_RST	105
+#define	ID_RBT	106
+#define	ID_TEXT1	107
+#define	ID_TEXT2	108
+#define	ID_MOI	109
+#define	ID_HELP2	110
+#define	ID_SSDD	111
+#define	ID_RS	112
+#define	IDICON200	200
+#define	IDICON300	300
+#define	ID_OPEN	1011
+#define	ID_AA	1021
+#define	ID_BYE	1032
+#define	ID_HELP	1043
+#define	SH_Tex	2000

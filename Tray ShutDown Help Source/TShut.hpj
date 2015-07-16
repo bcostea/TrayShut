@@ -1,0 +1,17 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+[OPTIONS]
+COMPRESS=10 phrase Zeck
+OLDKEYPHRASE=Yes
+LCID=0x409 0x0 0x0 ; English (United States)
+REPORT=Yes
+TITLE=Tray Shut Down Help
+DEFFONT=Tahoma,8,0
+HLP=TShut.hlp
+
+[FILES]
+Tshut.Rtf
+
+[WINDOWS]
+TShut="Tray Shut Down",(653,102,360,600),20740,(r12639424),(r12632256),f3; Waiting 4 user input :)
+main="Tray Shut Down",,5,(r12639424),,f3; Waiting 4 user input

@@ -1,0 +1,49 @@
+/* Wedit generated resource file */
+#ifdef __LCC__
+#include <windows.h>
+#endif
+#include "bitmapitres.h"
+
+
+IDD_MAINDIALOG DIALOGEX 127, 17, 198, 106
+STYLE WS_POPUP
+EXSTYLE WS_EX_STATICEDGE|WS_EX_TOPMOST
+FONT 8, "Helv"
+BEGIN
+    PUSHBUTTON      "&Hide", IDOK, 151, 63, 40, 14, NOT WS_TABSTOP, WS_EX_CLIENTEDGE
+    PUSHBUTTON      "&Exit", IDCANCEL, 151, 79, 40, 14, NOT WS_TABSTOP, WS_EX_CLIENTEDGE
+    PUSHBUTTON      "&About", ID_MOI, 151, 30, 40, 14, NOT WS_TABSTOP, WS_EX_CLIENTEDGE
+    PUSHBUTTON      "&Help...", ID_HELP2, 151, 46, 40, 14, NOT WS_TABSTOP, WS_EX_CLIENTEDGE
+	ICON            "ID_ICON", ID_ICON, 4, 4, 32, 32, 0x0100
+    ICON            "ID_ABOUT", ID_ABOUT, 34, 4, 32, 32, 0x0100
+    LTEXT           "Chose double click auto action:", 101, 5, 28, 142, 12, NOT WS_GROUP
+    AUTORADIOBUTTON "Shut Down", ID_SHT, 10, 44, 115, 10, 0, WS_EX_TRANSPARENT
+    AUTORADIOBUTTON "Restart", ID_RST, 10, 54, 121, 10, 0, WS_EX_TRANSPARENT
+    AUTORADIOBUTTON "Reboot", ID_RBT, 10, 64, 39, 10, 0, WS_EX_TRANSPARENT
+    AUTORADIOBUTTON "Show Shut Down Dialog", ID_SSDD, 10, 74, 100, 10
+
+END
+200 ICON "c:\\bitmapit\\exit.ico"
+IDICON200
+BEGIN
+0x00010000L, 0x20200001L, 0x00010000L, 0x0CA80000L, 0x00010000L
+END
+
+300 ICON "c:\\bitmapit\\aboutme.ico"
+IDICON300
+BEGIN
+0x00010000L, 0x20200001L, 0x00010000L, 0x0CA80000L, 0x00020000L
+END
+
+1000 MENU
+BEGIN
+    POPUP "etc"
+        BEGIN
+        MENUITEM "&Open", ID_OPEN
+        MENUITEM "&Auto Action...", ID_AA
+        MENUITEM "&Monitor Power OFF...", ID_MONIT
+        MENUITEM "&Help....", ID_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit", ID_BYE
+        END
+END
